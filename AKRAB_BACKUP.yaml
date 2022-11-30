@@ -25,7 +25,6 @@ proxies:
     path: /trojanws
     headers:
       Host: sg-ovh.sshpremium.my.id
-proxies:
 - name: AKRAB_3
   type: trojan
   server: kno2fy.com
