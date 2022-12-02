@@ -45,33 +45,7 @@ proxies:
   password: 65d91772-31d6-4cf8-b831-0fcbbd6b527e
   udp: true
   sni: presence.teams.live.com
-  skip-cert-verify: true
-- name: WSMODE2
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: e135a5b8-5fc7-4222-b7fc-6f86e86d9054
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id      
-- name: AKRAB_1
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
-  udp: true
-  sni: sg-ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true     
 - name: AKRAB_2
   type: trojan
   server: wsindo.aryossh.my.id
