@@ -1,4 +1,82 @@
 proxies:
+- name: danutrojgo
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
+  udp: true
+  sni: sg-cth.aryossh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.aryossh.my.id
+- name: danutrojgo-IP
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
+  udp: true
+  sni: 103.83.159.232
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: 103.83.159.232
+- name: danu03
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: 48d478fb-afd8-477d-912b-86d32bd291a5
+  udp: true
+  sni: sg-cth.aryossh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.aryossh.my.id
+- name: danu03-IP
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: 48d478fb-afd8-477d-912b-86d32bd291a5
+  udp: true
+  sni: 103.83.159.232
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: 103.83.159.232
+- name: danu04
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: ba608ac2-6678-4c84-b511-068a33ad8dad
+  udp: true
+  sni: sg-cth.aryossh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.aryossh.my.id
+- name: danu04-IP
+  type: trojan
+  server: wsindo.aryossh.my.id
+  port: 443
+  password: ba608ac2-6678-4c84-b511-068a33ad8dad
+  udp: true
+  sni: 103.83.159.232
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: 103.83.159.232
 - name: SNI1
   type: trojan
   server: sg-do2.sshpremium.my.id
@@ -40,7 +118,7 @@ proxies:
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: sg-do2.sshpremium.my.id
+      Host: sg-do2.sshpremium.my.id      
 - name: AKRAB_1
   type: trojan
   server: support.zoom.us
