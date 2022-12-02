@@ -38,7 +38,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-cth.aryossh.my.id
-- name: danu04
+- name: danu05
   type: trojan
   server: wsindo.aryossh.my.id
   port: 443
