@@ -1,7 +1,7 @@
 proxies:
 - name: AKRAB_1
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: AKRAB_2
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: sg-ovh.sshpremium.my.id
 - name: AKRAB_3
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: 48d478fb-afd8-477d-912b-86d32bd291a5
   udp: true
@@ -40,7 +40,7 @@ proxies:
       Host: sg-cth.indo-ssh.com
 - name: AKRAB_4
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: ba608ac2-6678-4c84-b511-068a33ad8dad
   udp: true
@@ -53,7 +53,7 @@ proxies:
       Host: sg-ovh.sshpremium.my.id
 - name: AKRAB_5
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: a42d7f82-49a8-4295-a0ae-6fed76e6dbad
   udp: true
