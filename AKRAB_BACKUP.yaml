@@ -44,7 +44,7 @@ proxies:
   port: 443
   password: 65d91772-31d6-4cf8-b831-0fcbbd6b527e
   udp: true
-  sni: teams.live.com
+  sni: presence.teams.live.com
   skip-cert-verify: true
 - name: WSMODE2
   type: trojan
@@ -61,7 +61,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id      
 - name: AKRAB_1
   type: trojan
-  server: teams.live.com
+  server: wsindo.aryossh.my.id
   port: 443
   password: 128c21ef-d2cf-4a15-a3bb-c90f22448ef9
   udp: true
