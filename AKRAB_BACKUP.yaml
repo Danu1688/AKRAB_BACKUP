@@ -12,19 +12,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-cth.aryossh.my.id
-- name: danutrojgo-IP
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
-  udp: true
-  sni: 103.83.159.232
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: 103.83.159.232
 - name: danu03
   type: trojan
   server: wsindo.aryossh.my.id
@@ -38,19 +25,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-cth.aryossh.my.id
-- name: danu03-IP
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: 48d478fb-afd8-477d-912b-86d32bd291a5
-  udp: true
-  sni: 103.83.159.232
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: 103.83.159.232
 - name: danu04
   type: trojan
   server: wsindo.aryossh.my.id
@@ -64,19 +38,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-cth.aryossh.my.id
-- name: danu04-IP
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: ba608ac2-6678-4c84-b511-068a33ad8dad
-  udp: true
-  sni: 103.83.159.232
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: 103.83.159.232
 - name: SNI1
   type: trojan
   server: sg-do2.sshpremium.my.id
@@ -85,27 +46,6 @@ proxies:
   udp: true
   sni: teams.live.com
   skip-cert-verify: true
-- name: SNI2
-  type: trojan
-  server: 104.22.24.131
-  port: 443
-  password: 0bc1c21a-245f-41db-90e5-45c9be37245d
-  udp: true
-  sni: store.zoom.us
-  skip-cert-verify: true
-- name: WSMODE
-  type: trojan
-  server: cdn.onlymega.com
-  port: 443
-  password: e135a5b8-5fc7-4222-b7fc-6f86e86d9054
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
 - name: WSMODE2
   type: trojan
   server: wsindo.aryossh.my.id
