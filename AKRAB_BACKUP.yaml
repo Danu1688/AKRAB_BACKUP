@@ -177,10 +177,10 @@ proxies:
   port: 443
   password: a42d7f82-49a8-4295-a0ae-6fed76e6dbad
   udp: true
-  sni: sg-do2.sshpremium.my.id
+  sni: sg-cth.aryossh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojanws
     headers:
-      Host: sg-do2.sshpremium.my.id
+      Host: sg-cth.aryossh.my.id
