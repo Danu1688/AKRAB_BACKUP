@@ -14,7 +14,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: AKRAB_2
   type: trojan
-  server: kno2fy.com
+  server: wsindo.aryossh.my.id
   port: 443
   password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
   udp: true
