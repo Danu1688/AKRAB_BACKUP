@@ -1,17 +1,14 @@
 proxies:
-- name: danuterong01flex
-  type: vmess
-  server: 104.17.3.81
-  port: 80
+- name: danuterong01b
+  type: trojan
+  server: 172.67.199.34
+  port: 443
   password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
-  alterId: 0
-  cipher: auto
   udp: true
+  sni: b19f.vpsxc.my.id
   skip-cert-verify: true
-  tls: false
-  servername: b19f.vpsxc.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /terong
     headers:
       Host: b19f.vpsxc.my.id
