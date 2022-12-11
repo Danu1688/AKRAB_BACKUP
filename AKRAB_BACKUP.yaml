@@ -1,14 +1,17 @@
 proxies:
-- name: danutrojgo
-  type: trojan
-  server: wsindo.aryossh.my.id
-  port: 443
-  password: d0bf1110-a429-4c81-883b-cd4cf5593fa8
+- name: danuterong01flex
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: sg-cth.aryossh.my.id
   skip-cert-verify: true
+  tls: false
+  servername: b19f.vpsxc.my.id
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /vmess
     headers:
-      Host: sg-cth.aryossh.my.id
+      Host: b19f.vpsxc.my.id
