@@ -1,14 +1,12 @@
 proxies:
-- name: danuterong01b
+- name: danuBackup05
   type: trojan
-  server: 172.67.199.34
+  server: wsindo.aryossh.my.id
   port: 443
-  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  password: c1b0678d-6439-4893-a186-456e338c6fae
   udp: true
-  sni: b19f.vpsxc.my.id
+  sni: sg-do2.sshpremium.my.id
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /terong
-    headers:
-      Host: b19f.vpsxc.my.id
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan-grpc
