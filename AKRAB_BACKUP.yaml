@@ -1,5 +1,5 @@
 proxies:
-- name: danuGo03
+- name: danuGo03-Identrust
   type: trojan
   server: crl.identrust.com
   port: 443
@@ -12,9 +12,9 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do2.sshpremium.my.id
-- name: danuGrpc05
+- name: danuGrpc05-Identrust
   type: trojan
-  server: wsindo.aryossh.my.id
+  server: crl.identrust.com
   port: 443
   password: c1b0678d-6439-4893-a186-456e338c6fae
   udp: true
