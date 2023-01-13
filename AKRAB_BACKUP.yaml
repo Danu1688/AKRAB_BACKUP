@@ -38,32 +38,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: store.zoom.us
-- name: danuWs12-SNI-Klients5Google
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: clients5.google.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: clients5.google.com
-- name: danuWs12-SNI-LayananRuangguru
-  type: trojan
-  server: sg-do2.sshpremium.my.id
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: layanan.ruangguru.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: layanan.ruangguru.com
 - name: danuWs12-SNI-TeamsLive
   type: trojan
   server: sg-do2.sshpremium.my.id
