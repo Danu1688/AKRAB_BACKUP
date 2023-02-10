@@ -1,7 +1,7 @@
 proxies:
 - name: danuMultiSvr01c-Vision+
   type: trojan
-  server: 104.21.235.171
+  server: vision.id
   port: 443
   password: 599f239a-8404-4fc7-980d-962e8c77cf07
   udp: true
